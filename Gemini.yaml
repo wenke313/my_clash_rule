@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.clients6.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,alkalimakersuite.apps.google.com
