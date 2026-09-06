@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,console.x.ai
+  - DOMAIN-SUFFIX,docs.x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,api.grok.com
