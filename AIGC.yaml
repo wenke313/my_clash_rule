@@ -1,0 +1,15 @@
+payload:
+  - GEOSITE,openai
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.clients6.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,alkalimakersuite.apps.google.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,console.x.ai
+  - DOMAIN-SUFFIX,docs.x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,api.grok.com
