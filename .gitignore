@@ -19,9 +19,17 @@ docs/
 # 本机 Agent 技能/配置（不入公开仓库）
 .pi/
 
-# Region Guard 工具链（含 secret 配置与二进制，不入库）
+# 已废弃项目（本地保留，不入库）
 guard/
+smart_feed/
 
 # 敏感主配置（含订阅 token，绝不入库；Clash-v3-smart.yaml 等放此目录，github 同步自动排除）
 config/
 BT_Tracker.yaml
+
+# mihomo geo 数据文件（二进制，测试用）
+GeoIP.dat
+GeoSite.dat
+
+# 临时文件
+.tmp/
