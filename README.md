@@ -4,16 +4,25 @@ Clash/Mihomo 分流规则仓库。OpenClash rule-provider（`behavior: classical
 
 ## 目录结构
 
-| 路径 | 用途 | 入库 |
-|------|------|------|
-| `root/*.yaml` | 11 个 rule-provider 规则文件 | ✅ |
-| `config/` | 主配置（含订阅 token、smart 参数） | ❌ |
-| `docs/` | 路由器 OpenClash 体系速查（Agent 共享） | ❌ |
-| `bench/` | 节点测试（mihomo 内核、LightGBM 模型、训练/测速脚本、geo 数据） | ❌ |
-| `logs/` | 本地排查/分析工作记录 | ❌ |
-| `overwrite/` | 覆写模块文档（优先级/出口设计/已知坑） | ✅ |
-| `.pi/` | 本机 Agent 技能定义 | ❌ |
-| `.tmp/` | 临时文件 | ❌ |
+### 入库（GitHub 可见）
+
+| 路径 | 作用 |
+|------|------|
+| `root/*.yaml` | 11 个 rule-provider 规则文件。路由器运行时通过 OpenClash 自动从 GitHub raw 拉取，按 `payload:` 逐行匹配域名/IP 走对应代理组 |
+| `README.md` | 本文件，仓库说明 |
+| `overwrite/README.md` | 分流体系文档：规则优先级层次、出口设计、已知坑 |
+| `.gitignore` | 排除本地/敏感文件 |
+
+### 不入库（仅本机，.gitignore 排除）
+
+| 路径 | 作用 |
+|------|------|
+| `config/` | 主配置文件（`Clash-smart-nofeisu-*.yaml`），含订阅 token、smart 参数、代理组定义。敏感，绝不入库 |
+| `docs/` | 路由器 ImmortalWrt + OpenClash 体系速查文档，本机 Agent 共享，免重复排查 |
+| `bench/` | 节点测试环境：mihomo Windows 内核、LightGBM 模型（`.bin`）、训练/测速 Python 脚本、geo 数据文件、缓存 |
+| `logs/` | 本地排查/分析工作记录（BT_Tracker 待讨论材料等） |
+| `.pi/` | 本机 pi Agent 技能定义（9 个 OpenClash 知识库 skill） |
+| `.tmp/` | 临时文件（如 smart_weight_data.csv） |
 
 > 完整架构/运行模型/规则优先级/出口设计见 `docs/immortalwrt-router.md` 和 `overwrite/README.md`。
 
