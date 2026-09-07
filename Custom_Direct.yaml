@@ -412,3 +412,4 @@ payload:
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,longcat.chat
+  - DOMAIN-SUFFIX,pi.dev
