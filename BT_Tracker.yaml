@@ -8,4 +8,6 @@ payload:
   #         所有/香港/新加坡/英国fail，vless无XUDP会黑洞UDP announce)
   # 维护：trackers_all 列表更新后重测（方法/脚本见 logs/2026-10-09-bt-tracker-session.md）
   #   -> 增删条目 -> push -> 路由器热更新 BT_Tracker
+  #   -> 直连正常域名同步追加路由器 /etc/openclash/custom/openclash_custom_fake_filter.list（真实IP绕过）
+  #   -> 注意：本 payload 内域名绝不可进 fake_filter 名单，保持 fake-ip 才能命中 RuleSet
   - DOMAIN,tracker.k.vu
