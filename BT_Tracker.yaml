@@ -1,0 +1,8 @@
+payload:
+  # BT tracker：国内直连不可达(UDP黑洞)、走代理可救活的域名
+  # 2026-10-09 基于 ngosang trackers_all.txt 全量72条announce实测产出：
+  #   家(直连)两轮全死 + 日本VPS存活 = 中国封锁；全球死的(直连+VPS都死)不收，代理救不活。
+  # 维护：trackers_all 列表更新后重测（方法/脚本见 logs/2026-10-09-bt-tracker-session.md）
+  #   -> 增删条目 -> push -> 路由器热更新 BT_Tracker
+  - DOMAIN,tracker.k.vu
+  - DOMAIN,kolankoalastree.newtrackon.co.nz

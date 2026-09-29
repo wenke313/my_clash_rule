@@ -25,7 +25,6 @@ smart_feed/
 
 # 敏感主配置（含订阅 token，绝不入库；Clash-v3-smart.yaml 等放此目录，github 同步自动排除）
 config/
-BT_Tracker.yaml
 
 # mihomo geo 数据文件（二进制，测试用）
 GeoIP.dat
@@ -33,3 +32,6 @@ GeoSite.dat
 
 # 临时文件
 .tmp/
+
+# Smart 内核 fork 工作区（独立 git 仓库：wenke313/mihomo，spec 见其 docs/，不入本库）
+mihomo-smart/
