@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,pypa.io
   - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,python.org
