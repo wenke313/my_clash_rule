@@ -41,3 +41,4 @@ payload:
   - DOMAIN-SUFFIX,openbsd.org
   # ===== Android APK 下载 =====
   - DOMAIN-SUFFIX,apkpure.com
+  - DOMAIN-SUFFIX,apkpures.xyz
