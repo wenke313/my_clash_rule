@@ -53,6 +53,6 @@ payload:
   - DOMAIN-SUFFIX,aimp.ru
   - DOMAIN-SUFFIX,tavily.com
   - DOMAIN-SUFFIX,mh-nexus.de
-  # APKPure（APK 下载，GEOSITE gfw 收录，2026-10-06 由 Tools 移入）
+  # APKPure 官方域（apkpure.com/net，gfw 收录；CDN 域 apkpures.xyz/apkcube.com 不代理走直连，后期不行再加）
   - DOMAIN-SUFFIX,apkpure.com
-  - DOMAIN-SUFFIX,apkpures.xyz
+  - DOMAIN-SUFFIX,apkpure.net
