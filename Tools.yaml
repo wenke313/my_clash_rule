@@ -39,6 +39,3 @@ payload:
   - DOMAIN-SUFFIX,raspberrypi.org
   - DOMAIN-SUFFIX,freebsd.org
   - DOMAIN-SUFFIX,openbsd.org
-  # ===== Android APK 下载 =====
-  - DOMAIN-SUFFIX,apkpure.com
-  - DOMAIN-SUFFIX,apkpures.xyz
