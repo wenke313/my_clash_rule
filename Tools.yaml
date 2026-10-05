@@ -19,6 +19,7 @@ payload:
   # node.js
   - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,unpkg.com
   # 开发问答
   - DOMAIN-SUFFIX,stackoverflow.com
   - DOMAIN-SUFFIX,stackexchange.com
