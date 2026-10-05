@@ -1,0 +1,41 @@
+payload:
+  # ===== 开发工具（语言/包管理/问答）=====
+  # git
+  - DOMAIN-SUFFIX,git-scm.com
+  # python（原 python.yaml 并入，2026-10-05）
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,pypa.io
+  - DOMAIN-SUFFIX,pytorch.org
+  - DOMAIN-SUFFIX,python.org
+  # rust
+  - DOMAIN-SUFFIX,rust-lang.org
+  - DOMAIN-SUFFIX,rustup.rs
+  - DOMAIN-SUFFIX,crates.io
+  - DOMAIN-SUFFIX,docs.rs
+  # golang
+  - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,go.dev
+  # node.js
+  - DOMAIN-SUFFIX,nodejs.org
+  - DOMAIN-SUFFIX,npmjs.com
+  # 开发问答
+  - DOMAIN-SUFFIX,stackoverflow.com
+  - DOMAIN-SUFFIX,stackexchange.com
+  # ===== OS 与发行版（tools/os）=====
+  - DOMAIN-SUFFIX,ubuntu.com
+  - DOMAIN-SUFFIX,launchpad.net
+  - DOMAIN-SUFFIX,debian.org
+  - DOMAIN-SUFFIX,openwrt.org
+  - DOMAIN-SUFFIX,fedoraproject.org
+  - DOMAIN-SUFFIX,archlinux.org
+  - DOMAIN-SUFFIX,archlinuxarm.org
+  - DOMAIN-SUFFIX,centos.org
+  - DOMAIN-SUFFIX,rockylinux.org
+  - DOMAIN-SUFFIX,almalinux.org
+  - DOMAIN-SUFFIX,alpinelinux.org
+  - DOMAIN-SUFFIX,kernel.org
+  - DOMAIN-SUFFIX,raspberrypi.com
+  - DOMAIN-SUFFIX,raspberrypi.org
+  - DOMAIN-SUFFIX,freebsd.org
+  - DOMAIN-SUFFIX,openbsd.org
