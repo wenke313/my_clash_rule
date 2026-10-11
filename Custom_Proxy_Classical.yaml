@@ -56,3 +56,5 @@ payload:
   # APKPure 官方域（apkpure.com/net，gfw 收录；CDN 域 apkpures.xyz/apkcube.com 不代理走直连，后期不行再加）
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,apkpure.net
+  # 软件下载站（Windows 软件分发，走国外）
+  - DOMAIN-SUFFIX,mazterize.in
