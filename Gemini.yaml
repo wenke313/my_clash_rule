@@ -1,6 +1,17 @@
 payload:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,gemini.clients6.google.com
+  # Gemini 网页后端/静态资源/API（gemini.google.com 页面实证引用，2026-10-13）
+  - DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
+  - DOMAIN-SUFFIX,gemini.gstatic.com
+  - DOMAIN-SUFFIX,gemini.app.google
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,aistudio.google.com
+  # AI Studio 后端（实证可达）
+  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
   - DOMAIN-SUFFIX,alkalimakersuite.apps.google.com
+  # Google AI 开发者门户 / NotebookLM
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  # Antigravity（Google agentic IDE，2025-11 随 Gemini 3 发布）
+  - DOMAIN-SUFFIX,antigravity.google.com
