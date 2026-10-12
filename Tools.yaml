@@ -41,7 +41,36 @@ payload:
   - DOMAIN-SUFFIX,freebsd.org
   - DOMAIN-SUFFIX,openbsd.org
   # ===== Android 应用仓库（f-droid）=====
-  # 主站/repo/archive/forum/blog/monitor/matrix 均在 f-droid.org 下
+  # f-droid 主站/repo/archive/forum/blog/monitor/matrix 均在 f-droid.org 下
   - DOMAIN-SUFFIX,f-droid.org
   # f-droid 源码与 issue 托管（gitlab.com/fdroid）
   - DOMAIN-SUFFIX,gitlab.com
+  # 知名第三方 F-Droid 仓库
+  # IzzyOnDroid（repo: apt.izzysoft.de，官网: android.izzysoft.de）
+  - DOMAIN-SUFFIX,izzysoft.de
+  # Guardian Project
+  - DOMAIN-SUFFIX,guardianproject.info
+  # microG
+  - DOMAIN-SUFFIX,microg.org
+  # Bromite
+  - DOMAIN-SUFFIX,bromite.org
+  # Molly（Signal 分支）
+  - DOMAIN-SUFFIX,molly.im
+  # NewPipe（自建仓库在 archive.newpipe.net）
+  - DOMAIN-SUFFIX,newpipe.net
+  - DOMAIN-SUFFIX,archive.newpipe.net
+  # Mihon（Tachiyomi 分支）
+  - DOMAIN-SUFFIX,mihon.app
+  # 常用 FOSS Android 工具官网（F-Droid 生态头部应用）
+  - DOMAIN-SUFFIX,termux.com
+  - DOMAIN-SUFFIX,omaps.app
+  - DOMAIN-SUFFIX,fossify.org
+  - DOMAIN-SUFFIX,syncthing.net
+  - DOMAIN-SUFFIX,videolan.org
+  - DOMAIN-SUFFIX,nextcloud.com
+  - DOMAIN-SUFFIX,keepassdx.com
+  - DOMAIN-SUFFIX,getaegis.app
+  - DOMAIN-SUFFIX,catima.app
+  - DOMAIN-SUFFIX,antennapod.org
+  - DOMAIN-SUFFIX,obtainium.imranr.dev
+  - DOMAIN-SUFFIX,k9mail.app
