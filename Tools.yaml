@@ -40,3 +40,8 @@ payload:
   - DOMAIN-SUFFIX,raspberrypi.org
   - DOMAIN-SUFFIX,freebsd.org
   - DOMAIN-SUFFIX,openbsd.org
+  # ===== Android 应用仓库（f-droid）=====
+  # 主站/repo/archive/forum/blog/monitor/matrix 均在 f-droid.org 下
+  - DOMAIN-SUFFIX,f-droid.org
+  # f-droid 源码与 issue 托管（gitlab.com/fdroid）
+  - DOMAIN-SUFFIX,gitlab.com
