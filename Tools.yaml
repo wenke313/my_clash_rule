@@ -20,9 +20,26 @@ payload:
   - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,npmjs.com
   - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN-SUFFIX,bun.sh
   # 开发问答
   - DOMAIN-SUFFIX,stackoverflow.com
   - DOMAIN-SUFFIX,stackexchange.com
+  # ruby
+  - DOMAIN-SUFFIX,ruby-lang.org
+  # 开源软件托管与分发
+  - DOMAIN-SUFFIX,sourceforge.net
+  - DOMAIN-SUFFIX,github-cn.com
+  # macOS 包管理（Homebrew）
+  - DOMAIN-KEYWORD,brew
+  # 云存储同步 CLI
+  - DOMAIN-SUFFIX,rclone.org
+  # GNU 工具链（gcc/binutils/gdb）
+  - DOMAIN-SUFFIX,sourceware.org
+  # 十六进制编辑器（HxD）
+  - DOMAIN-SUFFIX,mh-nexus.de
+  # 游戏引擎
+  - DOMAIN-SUFFIX,unity.com
+  - DOMAIN-SUFFIX,unity3d.com
   # ===== OS 与发行版（tools/os）=====
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,launchpad.net
@@ -40,6 +57,12 @@ payload:
   - DOMAIN-SUFFIX,raspberrypi.org
   - DOMAIN-SUFFIX,freebsd.org
   - DOMAIN-SUFFIX,openbsd.org
+  - DOMAIN-SUFFIX,truenas.com
+  - DOMAIN-SUFFIX,proxmox.com
+  - DOMAIN-SUFFIX,immortalwrt.org
+  - DOMAIN-SUFFIX,postmarketos.org
+  # archlinux 包构建基础设施
+  - DOMAIN-SUFFIX,pkgbuild.com
   # ===== Android 应用仓库（f-droid）=====
   # f-droid 主站/repo/archive/forum/blog/monitor/matrix 均在 f-droid.org 下
   - DOMAIN-SUFFIX,f-droid.org
@@ -63,6 +86,7 @@ payload:
   - DOMAIN-SUFFIX,mihon.app
   # 常用 FOSS Android 工具官网（F-Droid 生态头部应用）
   - DOMAIN-SUFFIX,termux.com
+  - DOMAIN-SUFFIX,termux.dev
   - DOMAIN-SUFFIX,omaps.app
   - DOMAIN-SUFFIX,fossify.org
   - DOMAIN-SUFFIX,syncthing.net
@@ -74,3 +98,6 @@ payload:
   - DOMAIN-SUFFIX,antennapod.org
   - DOMAIN-SUFFIX,obtainium.imranr.dev
   - DOMAIN-SUFFIX,k9mail.app
+  # APKPure（Android 应用市场，同 F-Droid 类）
+  - DOMAIN-SUFFIX,apkpure.com
+  - DOMAIN-SUFFIX,apkpure.net
