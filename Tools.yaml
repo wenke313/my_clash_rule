@@ -28,7 +28,6 @@ payload:
   - DOMAIN-SUFFIX,ruby-lang.org
   # 开源软件托管与分发
   - DOMAIN-SUFFIX,sourceforge.net
-  - DOMAIN-SUFFIX,github-cn.com
   # macOS 包管理（Homebrew）
   - DOMAIN-KEYWORD,brew
   # 云存储同步 CLI

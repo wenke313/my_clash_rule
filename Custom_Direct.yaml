@@ -24,6 +24,9 @@ payload:
   - DOMAIN-SUFFIX,hub.gitmirror.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,kgithub.com
+  # github-cn.com 实为跳转 gitread.org 的中文社区站（2026-10-13 由 Tools 迁来试直连）
+  - DOMAIN-SUFFIX,github-cn.com
+  - DOMAIN-SUFFIX,gitread.org
   - DOMAIN-SUFFIX,docker.1panel.live
   - DOMAIN-SUFFIX,docker.kejilion.pro
   - DOMAIN-SUFFIX,docker.unsee.tech
