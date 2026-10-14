@@ -1,0 +1,5 @@
+payload:
+  # Google 系自维护规则（→ 谷歌服务组）：GEOSITE,google 覆盖不到的 Google 生态域名
+  # Safe Browsing OHTTP 隐私中继（Android 版，Fastly 托管；geosite 只有桌面版精确条目）
+  # 2026-10-15 定入谷歌服务组走代理，不放直连——封控考虑
+  - DOMAIN-SUFFIX,ohttp-relay-safebrowsing-android.google.fastly-edge.com

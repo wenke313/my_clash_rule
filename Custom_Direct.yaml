@@ -28,7 +28,7 @@ payload:
   - DOMAIN-SUFFIX,github-cn.com
   - DOMAIN-SUFFIX,gitread.org
   # 注：ohttp-relay-safebrowsing-android.google.fastly-edge.com（Google 安全浏览中继）
-  # 不放这里——Google 系流量须走谷歌服务组代理，已加入主配置 rules
+  # 不放这里——Google 系流量须走谷歌服务组代理（规则在仓库 Google.yaml）
   - DOMAIN-SUFFIX,docker.1panel.live
   - DOMAIN-SUFFIX,docker.kejilion.pro
   - DOMAIN-SUFFIX,docker.unsee.tech
