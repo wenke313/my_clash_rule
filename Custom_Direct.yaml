@@ -27,8 +27,6 @@ payload:
   # github-cn.com 实为跳转 gitread.org 的中文社区站（2026-10-13 实测直连可用，由 Tools 迁入）
   - DOMAIN-SUFFIX,github-cn.com
   - DOMAIN-SUFFIX,gitread.org
-  # Google Safe Browsing OHTTP 中继（Android 版，Fastly 托管；2026-10-13 试直连）
-  - DOMAIN-SUFFIX,ohttp-relay-safebrowsing-android.google.fastly-edge.com
   - DOMAIN-SUFFIX,docker.1panel.live
   - DOMAIN-SUFFIX,docker.kejilion.pro
   - DOMAIN-SUFFIX,docker.unsee.tech
