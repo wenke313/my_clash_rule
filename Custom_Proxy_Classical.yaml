@@ -36,5 +36,9 @@ payload:
   - GEOSITE,category-pt@!cn
   - DOMAIN-SUFFIX,aimp.ru
   - DOMAIN-SUFFIX,tavily.com
-  # 软件下载站（Windows 软件分发，走国外）
-  - DOMAIN-SUFFIX,mazterize.in
+# 软件下载站（Windows 软件分发，走国外）
+- DOMAIN-SUFFIX,mazterize.in
+# pi.dev（Earendil CLI coding agent，安装脚本/会话分享）2026-10-16 由国内组迁入
+# earendil.com 同生态（公司站 + Radius 服务），一次配齐
+- DOMAIN-SUFFIX,pi.dev
+- DOMAIN-SUFFIX,earendil.com
