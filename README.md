@@ -8,7 +8,7 @@ Clash/Mihomo 分流规则仓库。OpenClash rule-provider（`behavior: classical
 
 | 路径 | 作用 |
 |------|------|
-| `root/*.yaml` | 12 个 rule-provider 规则文件。路由器运行时通过 OpenClash 自动从 GitHub raw 拉取，按 `payload:` 逐行匹配域名/IP 走对应代理组 |
+| `root/*.yaml` | 13 个 rule-provider 规则文件。路由器运行时通过 OpenClash 自动从 GitHub raw 拉取，按 `payload:` 逐行匹配域名/IP 走对应代理组 |
 | `README.md` | 本文件，仓库说明 |
 | `overwrite/README.md` | 分流体系文档：规则优先级层次、出口设计、已知坑 |
 | `.gitignore` | 排除本地/敏感文件 |
