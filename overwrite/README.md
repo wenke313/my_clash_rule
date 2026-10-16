@@ -27,7 +27,6 @@
 | Digital_currency.yaml | Digital_currency | 数字货币 | 交易所/链 |
 | python.yaml | python | Python | Python 资源 |
 | Gemini.yaml | Gemini | Gemini 组 | Gemini 三件套域名 |
-| WorkBuddy.yaml | WorkBuddy | AI服务 | 腾讯 WorkBuddy/CodeBuddy（2026-10-16 新建） |
 | overwrite/main.ini | — | — | 覆写模块（本文件） |
 | PlatformIO.yaml | — | 未引用 | 库存 |
 | BT_Tracker.yaml | — | ⚠️ 挂起 | 2026-08-16 定论前禁动 |
