@@ -39,6 +39,9 @@ payload:
   # 游戏引擎
   - DOMAIN-SUFFIX,unity.com
   - DOMAIN-SUFFIX,unity3d.com
+  # CLI coding agent（Earendil，安装脚本/会话分享）2026-10-16 由国内组迁入工具组
+  - DOMAIN-SUFFIX,pi.dev
+  - DOMAIN-SUFFIX,earendil.com
   # ===== OS 与发行版（tools/os）=====
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,launchpad.net
