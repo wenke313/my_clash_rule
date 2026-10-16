@@ -1,0 +1,7 @@
+payload:
+  # ===== 腾讯 WorkBuddy（AI 办公 Agent，国际站，2026-10-16 新建）=====
+  # 落地：腾讯云 EdgeOne（workbuddy.ai.eo.dnse2.com → 43.159.106.56）
+  # 页面标题 "WorkBuddy - AI Agent for Everyday Office Work"，与 CodeBuddy 同源
+  - DOMAIN-SUFFIX,workbuddy.ai
+  # 前端静态资源/下载域（网页实测引用 download.codebuddy.ai，缺失会导致页面残缺）
+  - DOMAIN-SUFFIX,codebuddy.ai
