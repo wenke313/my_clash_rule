@@ -1,17 +1,37 @@
 payload:
+  # === Gemini 核心前台与品牌域名 ===
+  - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,gemini.clients6.google.com
-  # Gemini 网页后端/静态资源/API（gemini.google.com 页面实证引用，2026-10-13）
-  - DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
-  - DOMAIN-SUFFIX,gemini.gstatic.com
   - DOMAIN-SUFFIX,gemini.app.google
+  - DOMAIN-SUFFIX,gemini.gstatic.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,bard.google.com
+
+  # === Gemini 网页信令 / WebChannel / 核心后端通信 ===
+  - DOMAIN-SUFFIX,gemini.clients6.google.com
+  - DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
+  - DOMAIN-SUFFIX,signaler-pa.clients6.google.com
+  - DOMAIN-SUFFIX,alkalicore-pa.clients6.google.com
+  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,2webchannel-alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,alkalimakersuite.apps.google.com
+
+  # === Google AI 开发者与模型 API ===
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,aistudio.google.com
-  # AI Studio 后端（实证可达）
-  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN-SUFFIX,alkalimakersuite.apps.google.com
-  # Google AI 开发者门户 / NotebookLM
+  - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+  - DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
+  - DOMAIN-SUFFIX,aicode.googleapis.com
+  - DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
+
+  # === NotebookLM 与 Antigravity ===
+  - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
-  # Antigravity（Google agentic IDE，2025-11 随 Gemini 3 发布）
+  - DOMAIN-SUFFIX,antigravity.google
   - DOMAIN-SUFFIX,antigravity.google.com
+  - DOMAIN-SUFFIX,antigravity.googleapis.com
+  - DOMAIN-SUFFIX,antigravity-pa.googleapis.com
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
