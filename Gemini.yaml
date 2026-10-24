@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
   - DOMAIN-SUFFIX,aicode.googleapis.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
   - DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
 
   # === NotebookLM 与 Antigravity ===
