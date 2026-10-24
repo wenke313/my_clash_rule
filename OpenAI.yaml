@@ -1,9 +1,33 @@
 payload:
+  # === OpenAI / ChatGPT 官方主域与短域 ===
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,chatgpt.site
+  - DOMAIN-SUFFIX,crixet.com
+  - DOMAIN-SUFFIX,sora.com
+
+  # === 静态资源、用户生成内容与功能开关 ===
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,api.openai.com
-  # ChatGPT 网页功能开关（Statsig，chatgpt.com 页面实证引用，2026-10-13）
   - DOMAIN-SUFFIX,oaistatsig.com
-  # sora.com 已移除：OpenAI 帮助中心公告 Sora 网页/App 2026-04-26 停止、API 2026-09-24 停止
+  - DOMAIN-SUFFIX,api.openai.com
+
+  # === ChatGPT 高级实时语音通道 (LiveKit WebRTC) ===
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+
+  # === 附件存储与 CDN 加速 (Azure Blob / Cloudflare) ===
+  - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,openaiassets.blob.core.windows.net
+  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,openaicom.imgix.net
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
+
+  # === 登录认证与前端探针 ===
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX,openai.qualtrics.com

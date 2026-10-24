@@ -1,4 +1,16 @@
 payload:
+  # === Claude / Anthropic 核心前台与 API ===
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,clau.de
+
+  # === 用户文件、附件与 Artifacts 交互预览 ===
+  - DOMAIN-SUFFIX,claudeusercontent.com
+
+  # === Claude Model Context Protocol (MCP) 服务 ===
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+
+  # === 静态资源加速 ===
+  - DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net

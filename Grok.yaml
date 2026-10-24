@@ -1,6 +1,11 @@
 payload:
+  # === xAI 与 Grok 独立门户 ===
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,console.x.ai
   - DOMAIN-SUFFIX,docs.x.ai
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,api.grok.com
+  - DOMAIN-SUFFIX,grokipedia.com
+
+  # === X (Twitter) 平台内嵌 Grok ===
+  - DOMAIN-SUFFIX,grok.x.com
