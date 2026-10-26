@@ -9,8 +9,6 @@ Clash/Mihomo 分流规则仓库。OpenClash rule-provider（`behavior: classical
 | 路径 | 作用 |
 |------|------|
 | `*.yaml`（仓库根） | 9 个 rule-provider 规则文件。路由器每 8h（`interval: 28800`）自动从 GitHub raw 拉取，按 `payload:` 逐行匹配域名/IP 走对应代理组。其中 `PlatformIO.yaml` 当前未被主配置引用（库存）；`Gemini.yaml` 为增益清单，AI 四厂商主体已切上游 mrs（见 `docs/ai-rules-upstream-mrs.md`，本机） |
-| `scripts/sync_ai_domains.py` | [已退役] 昔日四大 AI 域名同步生成器，保留作历史参考 |
-| `sources/ai-local-additions.yaml` | [已退役] 昔日生成器增益清单，增益现直接手改 `Gemini.yaml` |
 | `README.md` | 本文件，仓库说明 |
 | `overwrite/README.md` | 分流体系文档：规则优先级层次、出口设计、已知坑 |
 | `.gitattributes` | 统一 LF，防 Windows/Linux 假 diff |
@@ -58,7 +56,7 @@ Conventional Commits 中文模板：
 - 自家仓库只保留 **`Gemini.yaml`（10 条增益）** 和 **`OpenCode.yaml`（上游仅覆盖 1/6，全量自维护）**
 - **加新域名**：直接手改对应 yaml → commit → push（路由器 8h 内拉取；急事 `mihomo_api.py update <provider>` 立即生效）
 - 对账明细与架构变更记录：`docs/ai-rules-upstream-mrs.md`（本机）
-- 旧的生成器与 CI 已退役（scripts/、sources/ 保留作历史参考）
+- 旧的生成器与 CI 已退役（scripts/、sources/ 已删除，见 git 历史）
 
 ### 其他 provider（手工维护）
 
