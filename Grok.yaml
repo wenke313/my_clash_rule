@@ -1,11 +1,11 @@
+# Grok — 由 scripts/sync_ai_domains.py 自动生成，请勿手改
+# 数据源: v2fly/domain-list-community (xai)
+# 本地增益: sources/ai-local-additions.yaml (0 条)
+# 条目: 4
+# 想加域名请改 sources/ai-local-additions.yaml，下次生成自动并入
 payload:
-  # === xAI 与 Grok 独立门户 ===
-  - DOMAIN-SUFFIX,x.ai
-  - DOMAIN-SUFFIX,console.x.ai
-  - DOMAIN-SUFFIX,docs.x.ai
+  # ===== 上游 v2fly (4 条) =====
   - DOMAIN-SUFFIX,grok.com
-  - DOMAIN-SUFFIX,api.grok.com
-  - DOMAIN-SUFFIX,grokipedia.com
-
-  # === X (Twitter) 平台内嵌 Grok ===
   - DOMAIN-SUFFIX,grok.x.com
+  - DOMAIN-SUFFIX,grokipedia.com
+  - DOMAIN-SUFFIX,x.ai

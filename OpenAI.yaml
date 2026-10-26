@@ -1,33 +1,33 @@
+# OpenAI — 由 scripts/sync_ai_domains.py 自动生成，请勿手改
+# 数据源: v2fly/domain-list-community (openai)
+# 本地增益: sources/ai-local-additions.yaml (0 条)
+# 条目: 24
+# 想加域名请改 sources/ai-local-additions.yaml，下次生成自动并入
 payload:
-  # === OpenAI / ChatGPT 官方主域与短域 ===
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,chatgpt.com
+  # ===== 上游 v2fly (24 条) =====
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,o33249.ingest.us.sentry.io
+  - DOMAIN,openai.qualtrics.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,openaiassets.blob.core.windows.net
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,openaicom.imgix.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
   - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,crixet.com
-  - DOMAIN-SUFFIX,sora.com
-
-  # === 静态资源、用户生成内容与功能开关 ===
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,oaistatsig.com
-  - DOMAIN-SUFFIX,api.openai.com
-
-  # === ChatGPT 高级实时语音通道 (LiveKit WebRTC) ===
-  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
   - DOMAIN-SUFFIX,host.livekit.cloud
-  - DOMAIN-SUFFIX,turn.livekit.cloud
-
-  # === 附件存储与 CDN 加速 (Azure Blob / Cloudflare) ===
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,openaiassets.blob.core.windows.net
-  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN-SUFFIX,openaicom.imgix.net
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
-
-  # === 登录认证与前端探针 ===
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX,openai.qualtrics.com
+  - DOMAIN-SUFFIX,openai.org
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+  # ===== 上游正则/关键字条目（clash classical 不支持，未纳入）=====
+  #   ^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$

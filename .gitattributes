@@ -1,0 +1,5 @@
+# 统一 LF：生成器在 Linux CI 上跑，Windows 本地跑；不锁死会让每次 CI 都产生假 diff
+* text=auto eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
