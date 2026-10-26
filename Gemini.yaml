@@ -1,64 +1,20 @@
-# Gemini — 由 scripts/sync_ai_domains.py 自动生成，请勿手改
-# 数据源: v2fly/domain-list-community (google-gemini, google-deepmind)
-# 本地增益: sources/ai-local-additions.yaml (7 条)
-# 条目: 56
-# 想加域名请改 sources/ai-local-additions.yaml，下次生成自动并入
+# Gemini 增益清单 — 上游 google-gemini mrs 未收录的域名
+# 主体规则已切上游 mrs（主配置 UpGemini provider，8h 自动跟进上游）
+# 本文件只留增益，前置命中：RULE-SET,Gemini 在 RULE-SET,UpGemini 之前
+# 新增增益直接手改本文件，push 后路由器 8h 内自动拉取（或 mihomo_api.py update Gemini 立即生效）
+# 2026-10-26 对账：56 条 → 10 条（46 条主体已由 mrs 覆盖，对账明细见 docs/ai-rules-upstream-mrs.md）
 payload:
-  # ===== 上游 v2fly (49 条) =====
-  - DOMAIN,ai.google.dev
-  - DOMAIN,alkalicore-pa.clients6.google.com
-  - DOMAIN,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN,antigravity-pa.googleapis.com
-  - DOMAIN,antigravity.googleapis.com
-  - DOMAIN,appsgenaiserver-pa.clients.google.com
-  - DOMAIN,appsgenaiserver-pa.clients6.google.com
-  - DOMAIN,appsgenaiserver-pa.googleapis.com
-  - DOMAIN,cloudaicompanion.googleapis.com
-  - DOMAIN,cloudcode-pa.googleapis.com
-  - DOMAIN,daily-cloudcode-pa.googleapis.com
-  - DOMAIN,geminiweb-pa.clients.google.com
-  - DOMAIN,geminiweb-pa.clients6.google.com
-  - DOMAIN,notebooklm-pa.googleapis.com
-  - DOMAIN,notebooklm.googleapis.com
-  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
-  - DOMAIN-SUFFIX,ai.studio
-  - DOMAIN-SUFFIX,aicode.googleapis.com
-  - DOMAIN-SUFFIX,aida.googleapis.com
-  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
-  - DOMAIN-SUFFIX,aistudio.google.com
-  - DOMAIN-SUFFIX,antigravity-unleash.goog
-  - DOMAIN-SUFFIX,antigravity.google
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,deepmind.com
-  - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,flow.google
-  - DOMAIN-SUFFIX,flow.google.com
-  - DOMAIN-SUFFIX,geller-pa.googleapis.com
-  - DOMAIN-SUFFIX,gemini.google
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,gemini.gstatic.com
-  - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
-  - DOMAIN-SUFFIX,jules.google
-  - DOMAIN-SUFFIX,jules.google.com
-  - DOMAIN-SUFFIX,labs.google
-  - DOMAIN-SUFFIX,labs.google.com
-  - DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
-  - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN-SUFFIX,notebook.google
-  - DOMAIN-SUFFIX,notebook.google.com
-  - DOMAIN-SUFFIX,notebooklm.google
-  - DOMAIN-SUFFIX,notebooklm.google.com
-  - DOMAIN-SUFFIX,opal.google
-  - DOMAIN-SUFFIX,opal.google.com
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-  - DOMAIN-SUFFIX,stitch.withgoogle.com
-  # ===== 本地增益 (7 条) =====
+  # Speakeasy 托管的 Google 官方 Gemini API 文档 MCP（三上游库均未收录，2026-10-26 发现漏网）
   - DOMAIN-SUFFIX,gemini-api-docs-mcp.dev
+  # DOMAIN-SUFFIX 尾串匹配盖不到 .google.com（上游只有 antigravity.google）
   - DOMAIN-SUFFIX,antigravity.google.com
+  # Gemini Web 前端与信令子域
   - DOMAIN-SUFFIX,gemini.app.google
   - DOMAIN-SUFFIX,gemini.clients6.google.com
   - DOMAIN-SUFFIX,signaler-pa.clients6.google.com
   - DOMAIN-SUFFIX,alkalimakersuite.apps.google.com
   - DOMAIN-SUFFIX,2webchannel-alkalimakersuite-pa.clients6.google.com
+  # appsgenaiserver 端点
+  - DOMAIN,appsgenaiserver-pa.clients.google.com
+  - DOMAIN,appsgenaiserver-pa.clients6.google.com
+  - DOMAIN,appsgenaiserver-pa.googleapis.com

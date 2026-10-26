@@ -8,12 +8,12 @@ Clash/Mihomo 分流规则仓库。OpenClash rule-provider（`behavior: classical
 
 | 路径 | 作用 |
 |------|------|
-| `*.yaml`（仓库根） | 12 个 rule-provider 规则文件。路由器运行时通过 OpenClash 自动从 GitHub raw 拉取，按 `payload:` 逐行匹配域名/IP 走对应代理组。其中 `PlatformIO.yaml` 当前未被主配置引用（库存）；`OpenAI.yaml` / `Claude.yaml` / `Gemini.yaml` / `Grok.yaml` 四个为**自动生成，勿手改** |
-| `scripts/sync_ai_domains.py` | 四大 AI 厂商域名同步生成器：拉 v2fly 上游分组 + 合并本地增益 + 重写上面 4 个 yaml |
-| `sources/ai-local-additions.yaml` | 本地增益清单：上游未收录但需走对应 AI 组的域名。手改这里，生成时自动并入，永不被覆盖 |
-| `.github/workflows/sync-ai-domains.yml` | 每天 UTC 20:17 自动跑生成器，有差异才 commit+push |
+| `*.yaml`（仓库根） | 9 个 rule-provider 规则文件。路由器每 8h（`interval: 28800`）自动从 GitHub raw 拉取，按 `payload:` 逐行匹配域名/IP 走对应代理组。其中 `PlatformIO.yaml` 当前未被主配置引用（库存）；`Gemini.yaml` 为增益清单，AI 四厂商主体已切上游 mrs（见 `docs/ai-rules-upstream-mrs.md`，本机） |
+| `scripts/sync_ai_domains.py` | [已退役] 昔日四大 AI 域名同步生成器，保留作历史参考 |
+| `sources/ai-local-additions.yaml` | [已退役] 昔日生成器增益清单，增益现直接手改 `Gemini.yaml` |
 | `README.md` | 本文件，仓库说明 |
 | `overwrite/README.md` | 分流体系文档：规则优先级层次、出口设计、已知坑 |
+| `.gitattributes` | 统一 LF，防 Windows/Linux 假 diff |
 | `.gitignore` | 排除目录/敏感文件 |
 
 ### 不入库（仅本机，.gitignore 排除）
@@ -50,18 +50,15 @@ Conventional Commits 中文模板：
 
 ## 维护流程
 
-### AI 域名（OpenAI / Claude / Gemini / Grok）— 全自动
+### AI 域名（OpenAI / Claude / Gemini / Grok）— 上游 mrs + 自家增益
 
-这 4 个 yaml **不要手改**，它们由脚本生成：
+2026-10-26 起 AI 主体直接引上游（主配置 rule-provider 指向 MetaCubeX mrs，路由器 8h 自动跟进，无需任何同步动作）：
 
-```bash
-python scripts/sync_ai_domains.py          # 生成
-python scripts/sync_ai_domains.py --check  # 只比对，有差异退出码 1
-```
-
-- **上游更新**：GitHub Actions 每天 UTC 20:17 自动拉 [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)，有差异才提交
-- **路由器跟进**：rule-provider `interval: 28800`（8 小时）自动从 GitHub raw 拉新，push 后无需任何手工操作
-- **加新域名**：改 `sources/ai-local-additions.yaml`，提交后 CI 会自动重新生成（上游收录后自动去重，不会重复）
+- OpenAI ← `openai.mrs` / Claude ← `anthropic.mrs` / Grok ← `xai.mrs` / UpGemini ← `google-gemini.mrs`
+- 自家仓库只保留 **`Gemini.yaml`（10 条增益）** 和 **`OpenCode.yaml`（上游仅覆盖 1/6，全量自维护）**
+- **加新域名**：直接手改对应 yaml → commit → push（路由器 8h 内拉取；急事 `mihomo_api.py update <provider>` 立即生效）
+- 对账明细与架构变更记录：`docs/ai-rules-upstream-mrs.md`（本机）
+- 旧的生成器与 CI 已退役（scripts/、sources/ 保留作历史参考）
 
 ### 其他 provider（手工维护）
 
