@@ -3,3 +3,5 @@ payload:
   # Safe Browsing OHTTP 隐私中继（Android 版，Fastly 托管；geosite 只有桌面版精确条目）
   # 2026-10-15 定入谷歌服务组走代理，不放直连——封控考虑
   - DOMAIN-SUFFIX,ohttp-relay-safebrowsing-android.google.fastly-edge.com
+  # Google 客户服务（账号连通性检测等），从 Google_CDN 直连挪入谷歌服务组走代理
+  - DOMAIN-SUFFIX,clientservices.googleapis.com
