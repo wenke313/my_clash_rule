@@ -2,4 +2,4 @@ payload:
   - DOMAIN-SUFFIX,services.googleapis.cn
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,mtalk.google.com
+  # 2026-11-07：mtalk.google.com（FCM 推送长连接 :5228）移出直连，交由主配置 GEOSITE,googlefcm → 谷歌FCM 组
