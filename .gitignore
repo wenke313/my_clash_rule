@@ -19,10 +19,6 @@ docs/
 # 本机 Agent 技能/配置（不入公开仓库）
 .pi/
 
-# 已废弃项目（本地保留，不入库）
-guard/
-smart_feed/
-
 # 敏感主配置（含订阅 token，绝不入库；Clash-v3-smart.yaml 等放此目录，github 同步自动排除）
 config/
 
