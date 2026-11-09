@@ -65,6 +65,27 @@ payload:
   - DOMAIN-SUFFIX,postmarketos.org
   # archlinux 包构建基础设施
   - DOMAIN-SUFFIX,pkgbuild.com
+  # ===== Android ROM 与第三方 Recovery =====
+  - DOMAIN-SUFFIX,pixelos.net
+  - DOMAIN-SUFFIX,lineageos.org
+  - DOMAIN-SUFFIX,grapheneos.org
+  - DOMAIN-SUFFIX,calyxos.org
+  - DOMAIN-SUFFIX,crdroid.net
+  - DOMAIN-SUFFIX,evolution-x.org
+  - DOMAIN-SUFFIX,twrp.me
+  # ===== Google Android 开发与刷机 =====
+  # Android Developers、AOSP 文档、CI、代码搜索、源码与评审
+  - DOMAIN,developer.android.com
+  - DOMAIN,source.android.com
+  - DOMAIN,ci.android.com
+  - DOMAIN,cs.android.com
+  - DOMAIN,android.googlesource.com
+  - DOMAIN,android-review.googlesource.com
+  # Google Maven 入口（制品由现有国内规则覆盖的 dl.google.com 提供）
+  - DOMAIN,maven.google.com
+  # Android Flash Tool、Pixel Update and Software Repair
+  - DOMAIN,flash.android.com
+  - DOMAIN,pixelrepair.withgoogle.com
   # ===== Android 应用仓库（f-droid）=====
   # f-droid 主站/repo/archive/forum/blog/monitor/matrix 均在 f-droid.org 下
   - DOMAIN-SUFFIX,f-droid.org
