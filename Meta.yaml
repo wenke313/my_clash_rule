@@ -1,0 +1,6 @@
+payload:
+  # Meta 系自维护规则（→ Meta服务组）：上游 meta.mrs 覆盖不到的 Meta / muse.ai 生态域名
+  # muse.ai CSP 中的静态资源 CDN（2026-11-13 实测掉入漏网之鱼直连）
+  - DOMAIN-SUFFIX,ecto1usercontent.com
+  # muse.ai CSP 中的 frame-src
+  - DOMAIN-SUFFIX,meta-agents-apps.workers.dev
