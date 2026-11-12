@@ -4,3 +4,10 @@ payload:
   - DOMAIN-SUFFIX,ecto1usercontent.com
   # muse.ai CSP 中的 frame-src
   - DOMAIN-SUFFIX,meta-agents-apps.workers.dev
+  # blackmatrix7 / Meta 生态补全（上游 meta.mrs 未收录）
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-SUFFIX,whatsapp.biz
+  - DOMAIN-SUFFIX,fbpigeon.com
+  - DOMAIN-SUFFIX,fbaddins.com
+  - DOMAIN-SUFFIX,facebookquotes4u.com
+  - DOMAIN-SUFFIX,ray-ban.com
