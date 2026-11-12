@@ -18,7 +18,6 @@ payload:
   - DOMAIN-SUFFIX,go.dev
   # node.js
   - DOMAIN-SUFFIX,nodejs.org
-  - DOMAIN-SUFFIX,npmjs.com
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,bun.sh
   # 开发问答
@@ -104,7 +103,6 @@ payload:
   - DOMAIN-SUFFIX,molly.im
   # NewPipe（自建仓库在 archive.newpipe.net）
   - DOMAIN-SUFFIX,newpipe.net
-  - DOMAIN-SUFFIX,archive.newpipe.net
   # Mihon（Tachiyomi 分支）
   - DOMAIN-SUFFIX,mihon.app
   # 常用 FOSS Android 工具官网（F-Droid 生态头部应用）

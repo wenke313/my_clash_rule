@@ -1,6 +1,5 @@
 payload:
   - geosite,category-cryptocurrency 
-  - DOMAIN-SUFFIX,gate.com
   - DOMAIN-SUFFIX,ergoplatform.org
   - DOMAIN-SUFFIX,neurai.org
   - DOMAIN-SUFFIX,neuraiexplorer.com
@@ -8,4 +7,3 @@ payload:
   - DOMAIN-SUFFIX,ntminerpool.com
   - DOMAIN-SUFFIX,miningpoolstats.stream
   - DOMAIN-SUFFIX,supportxmr.com
-  - DOMAIN-SUFFIX,gatedata.org

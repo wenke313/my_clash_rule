@@ -92,8 +92,6 @@ payload:
   - DOMAIN-SUFFIX,game.maj-soul.com
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-KEYWORD,m-team
-  - DOMAIN-SUFFIX,m-team.cc
-  - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,liveperson.net

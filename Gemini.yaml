@@ -14,7 +14,3 @@ payload:
   - DOMAIN-SUFFIX,signaler-pa.clients6.google.com
   - DOMAIN-SUFFIX,alkalimakersuite.apps.google.com
   - DOMAIN-SUFFIX,2webchannel-alkalimakersuite-pa.clients6.google.com
-  # appsgenaiserver 端点
-  - DOMAIN,appsgenaiserver-pa.clients.google.com
-  - DOMAIN,appsgenaiserver-pa.clients6.google.com
-  - DOMAIN,appsgenaiserver-pa.googleapis.com
