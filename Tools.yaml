@@ -25,10 +25,13 @@ payload:
   - DOMAIN-SUFFIX,stackexchange.com
   # ruby
   - DOMAIN-SUFFIX,ruby-lang.org
+  # php
+  - DOMAIN-SUFFIX,php.net
   # 开源软件托管与分发
   - DOMAIN-SUFFIX,sourceforge.net
-  # macOS 包管理（Homebrew）
+  # macOS 包管理（Homebrew / MacPorts）
   - DOMAIN-KEYWORD,brew
+  - DOMAIN-SUFFIX,macports.org
   # 云存储同步 CLI
   - DOMAIN-SUFFIX,rclone.org
   # GNU 工具链（gcc/binutils/gdb）
@@ -66,6 +69,8 @@ payload:
   - DOMAIN-SUFFIX,pkgbuild.com
   # Windows UUP 镜像工具（主站 / api.uupdump.net / git.uupdump.net）
   - DOMAIN-SUFFIX,uupdump.net
+  # UUP 转换脚本上游论坛（My Digital Life）
+  - DOMAIN-SUFFIX,mydigitallife.net
   # ===== Android ROM 与第三方 Recovery =====
   - DOMAIN-SUFFIX,pixelos.net
   - DOMAIN-SUFFIX,lineageos.org
