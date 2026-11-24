@@ -64,6 +64,8 @@ payload:
   - DOMAIN-SUFFIX,postmarketos.org
   # archlinux 包构建基础设施
   - DOMAIN-SUFFIX,pkgbuild.com
+  # Windows UUP 镜像工具（主站 / api.uupdump.net / git.uupdump.net）
+  - DOMAIN-SUFFIX,uupdump.net
   # ===== Android ROM 与第三方 Recovery =====
   - DOMAIN-SUFFIX,pixelos.net
   - DOMAIN-SUFFIX,lineageos.org
