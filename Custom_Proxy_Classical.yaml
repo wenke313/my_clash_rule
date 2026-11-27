@@ -40,6 +40,8 @@ payload:
   # 取更快一侧；直连被墙/超时，或代理快 25% 以上的进本组。
   # 名单 = HGhub 已启用 54 个插件的 linkDomains + 插件内部接口/图床域名实测清单。
   - DOMAIN-SUFFIX,18j.tv
+  - DOMAIN-SUFFIX,4k-av.com
+  - DOMAIN-SUFFIX,4kmp.com
   - DOMAIN-SUFFIX,51hlws.com
   - DOMAIN-SUFFIX,591av.ws
   - DOMAIN-SUFFIX,911bb3.com
@@ -50,12 +52,12 @@ payload:
   - DOMAIN-SUFFIX,91porna.com
   - DOMAIN-SUFFIX,91porny.com
   - DOMAIN-SUFFIX,91vip12.com
+  - DOMAIN-SUFFIX,98jpg1.vip
   - DOMAIN-SUFFIX,aits1.vip
   - DOMAIN-SUFFIX,allmusiclub.almusiclub.com
   - DOMAIN-SUFFIX,alpharomeo.shop
   - DOMAIN-SUFFIX,anime1.me
   - DOMAIN-SUFFIX,aowu.tv
-  - DOMAIN-SUFFIX,api.gu6ji7sorn7s.xyz
   - DOMAIN-SUFFIX,api.nmvod.me
   - DOMAIN-SUFFIX,api.y7hvaad8g.xyz
   - DOMAIN-SUFFIX,avjb.com
@@ -66,14 +68,17 @@ payload:
   - DOMAIN-SUFFIX,capital.opukapynj.cc
   - DOMAIN-SUFFIX,c.xpgtv.net
   - DOMAIN-SUFFIX,chengguodj.com
+  - DOMAIN-SUFFIX,d1k1nd82ice0a7.cloudfront.net
   - DOMAIN-SUFFIX,d1vpyad429lawp.cloudfront.net
+  - DOMAIN-SUFFIX,d9altmxkp5q0i.cloudfront.net
   - DOMAIN-SUFFIX,dbku.tv
   - DOMAIN-SUFFIX,ddd.aisheji8.com
+  - DOMAIN-SUFFIX,dhvideo.cc
+  - DOMAIN-SUFFIX,duanjutt.tv
   - DOMAIN-SUFFIX,duobo.vip
   - DOMAIN-SUFFIX,gimytv.io
   - DOMAIN-SUFFIX,gimytw.cc
   - DOMAIN-SUFFIX,h1.qhkjapp.com
-  - DOMAIN-SUFFIX,h3.xinghun1.com
   - DOMAIN-SUFFIX,hanime1.me
   - DOMAIN-SUFFIX,hanimeone.me
   - DOMAIN-SUFFIX,hanjukankan.com
@@ -85,17 +90,17 @@ payload:
   - DOMAIN-SUFFIX,hl365.com
   - DOMAIN-SUFFIX,hongkongdollvideo.com
   - DOMAIN-SUFFIX,huangguoai.com
+  - DOMAIN-SUFFIX,i1.vvmp4.com
+  - DOMAIN-SUFFIX,img1.wsyzy.org
   - DOMAIN-SUFFIX,imgpublic.ycomesc.live
   - DOMAIN-SUFFIX,item.xpgcom.com
   - DOMAIN-SUFFIX,javtiful.com
   - DOMAIN-SUFFIX,jiabaide.cn
   - DOMAIN-SUFFIX,jiuse3.cloud
-  - DOMAIN-SUFFIX,jzpic.ok1333.cn
   - DOMAIN-SUFFIX,k4irke3n6xcwdpc.xyz
   - DOMAIN-SUFFIX,k5p0vw2fgfvc.xyz
   - DOMAIN-SUFFIX,kanju.ai
   - DOMAIN-SUFFIX,kanju44.com
-  - DOMAIN-SUFFIX,kxyytv.com
   - DOMAIN-SUFFIX,kkav.com
   - DOMAIN-SUFFIX,lovebox.xm0108.lol
   - DOMAIN-SUFFIX,madou.club
@@ -108,18 +113,15 @@ payload:
   - DOMAIN-SUFFIX,op.ysdqjs.cn
   - DOMAIN-SUFFIX,opukapynj.cc
   - DOMAIN-SUFFIX,pianku.online
-  - DOMAIN-SUFFIX,pic.nsxxlj.cn
   - DOMAIN-SUFFIX,pirvmpmir.cc
   - DOMAIN-SUFFIX,play.zoyi0lzo.com
   - DOMAIN-SUFFIX,player.centercdn.top
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornlulu.net
   - DOMAIN-SUFFIX,pp2.xbp261111.top
-  - DOMAIN-SUFFIX,qcapp.xingya.com.cn
   - DOMAIN-SUFFIX,qnlycc.cn
   - DOMAIN-SUFFIX,qv1tx2.shoupingxz.com
   - DOMAIN-SUFFIX,rou.video
-  - DOMAIN-SUFFIX,rr.rxjhwl.com
   - DOMAIN-SUFFIX,sgp1.vultrobjects.com
   - DOMAIN-SUFFIX,shdy2.com
   - DOMAIN-SUFFIX,simg-94.vcwinford.cc
