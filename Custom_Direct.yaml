@@ -413,3 +413,40 @@ payload:
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,longcat.chat
+  # ===== HGhub 播放器插件源：直连更快（2026-11-27 实测）=====
+  # 判定：同一套内核 delay 双向对比，直连延迟不高于代理，或代理不可达的国内 CDN/落地站；
+  # 含国内图床（pic./hls./qw. 等）与国内 CDN 线路。
+  - DOMAIN-SUFFIX,321av.art
+  - DOMAIN-SUFFIX,4k-av.com
+  - DOMAIN-SUFFIX,4kmp.com
+  - DOMAIN-SUFFIX,57hqky.com
+  - DOMAIN-SUFFIX,62mwxk.com
+  - DOMAIN-SUFFIX,77dpw.vip
+  - DOMAIN-SUFFIX,98jpg1.vip
+  - DOMAIN-SUFFIX,aeete.com
+  - DOMAIN-SUFFIX,anfuns.org
+  - DOMAIN-SUFFIX,box.dyrs.com.de
+  - DOMAIN-SUFFIX,cibn-edge-5g.1ljx.com
+  - DOMAIN-SUFFIX,d1k1nd82ice0a7.cloudfront.net
+  - DOMAIN-SUFFIX,d9altmxkp5q0i.cloudfront.net
+  - DOMAIN-SUFFIX,dhvideo.cc
+  - DOMAIN-SUFFIX,duanjutt.tv
+  - DOMAIN-SUFFIX,hanime16.com
+  - DOMAIN-SUFFIX,hls.ohjzmm.cn
+  - DOMAIN-SUFFIX,i1.vvmp4.com
+  - DOMAIN-SUFFIX,img1.wsyzy.org
+  - DOMAIN-SUFFIX,jdys.art
+  - DOMAIN-SUFFIX,jisuzhuiju.com
+  - DOMAIN-SUFFIX,jpts1.top
+  - DOMAIN-SUFFIX,jpxjpg11.top
+  - DOMAIN-SUFFIX,juzong01.me
+  - DOMAIN-SUFFIX,p.bfp261112.com
+  - DOMAIN-SUFFIX,pic.biacea.cn
+  - DOMAIN-SUFFIX,pic.gyezbp.cn
+  - DOMAIN-SUFFIX,pic.mmgbaa.cn
+  - DOMAIN-SUFFIX,qw.mkimfs.cn
+  - DOMAIN-SUFFIX,sta.anicdn.com
+  - DOMAIN-SUFFIX,u.shytkjgs.com
+  - DOMAIN-SUFFIX,vip.dytt-network.com
+  - DOMAIN-SUFFIX,vip.ffzy-play7.com
+  - DOMAIN-SUFFIX,vv.jisuzyv.com
