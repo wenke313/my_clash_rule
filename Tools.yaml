@@ -44,6 +44,11 @@ payload:
   # CLI coding agent（Earendil，安装脚本/会话分享）2026-10-16 由国内组迁入工具组
   - DOMAIN-SUFFIX,pi.dev
   - DOMAIN-SUFFIX,earendil.com
+  # CUA（Computer-Use Agent，cua-driver.exe / app.cua.ai / otel 遥测）
+  # 仅收官方主域：cua.ai 尾匹配已覆盖 app/api/otel/clerk/docs 等全部子域；trycua.com 301 → cua.ai
+  # 不收录第三方：eu.i.posthog.com / us.i.posthog.com 等 PostHog 统计域名（多 App 共用）
+  - DOMAIN-SUFFIX,cua.ai
+  - DOMAIN-SUFFIX,trycua.com
   # ===== OS 与发行版（tools/os）=====
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,launchpad.net
